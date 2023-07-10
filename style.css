@@ -208,3 +208,99 @@ margin-top: 24px;
 }
 
 
+/* hot deal section end  */
+
+
+.instagram-container{
+    margin-top: 128px;
+}
+
+.instagram-photo{
+    padding-top: 50px;
+    margin-left: 170px;
+
+}
+.instagram-photo img{
+    padding: 20px;
+}
+
+/* instagram section end  */
+
+.latest-deals-container{
+    margin-top: 128px;
+    border-radius: 8px;
+    background: url('./Flower Asset/Rectangle 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-left: 220px;
+  
+}
+.latest-deals-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 122px;
+    
+}
+.latest-deals-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 16px;
+}
+form{
+   margin-left: 250px;
+   margin-top: 41px;
+}
+
+.email-section{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+.email-section::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+/* text-align: center; */
+padding-left: 20px;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn{
+    width: 150px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #E55473;
+border: 0;
+color: #FFF;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 20px;
+
+}
+
+.footer-container{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    margin-top: 128px;
+}
+
