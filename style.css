@@ -4,6 +4,38 @@
     font-family: lato;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background:rgb(255, 255, 255);
+    /* position: fixed; */
+    margin-bottom: 50px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 3px 3px 5px #e26983 ;
+
+    
+}
+.logo{
+    font-size: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.meanu-bar ul li{
+    list-style: none;
+}
+.meanu-bar ul{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color:black;
+    cursor: pointer;
+}
+.meanu-bar ul li:hover{
+    color: #E55473;
+}
 
 .header-container{
     display: flex;
@@ -41,12 +73,12 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 .header-photo {
     margin-right: 240px;
     width: 635px;
     height: 800px;
-    flex-shrink: 0;
     margin-top: 98px;
 }
 
@@ -58,39 +90,28 @@
 .featured-title{
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 .featured-description{
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin-top: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
 }
 
 .featured-photo{
-    /* width: 370px; */
-    /* height: 370px; */
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 100px; */
     gap: 24px;
     
 }
 .pngwing-10 img{
-    /* width: 200px;
-    height: 250px; */
     width: 310px;
     height: 428px;
-    flex-shrink: 0;
     padding: 110px 78px 0px 76px;
     
 }
@@ -98,14 +119,12 @@ margin-top: 24px;
 
     width: 464px;
     height: 538px;
-    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 .pngwing-11 img{
     width: 370px;
     height: 370px;
-    flex-shrink: 0;
     padding: 117px 47px 51px 47px;
 }
 .pngwing-11{
@@ -113,27 +132,25 @@ margin-top: 24px;
     background: rgba(5, 151, 160, 0.15);
     width: 464px;
     height: 538px;
-    flex-shrink: 0;
+
 }
 .pngwing-12{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 464px;
     height: 538px;
-    flex-shrink: 0;
+
 }
 .pngwing-12 img{
     width: 314px;
     height: 471px;
-    flex-shrink: 0;
+
     padding: 67px 75px 0px 75px;
 }
 .pngwing-title{
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -180,25 +197,20 @@ margin-top: 24px;
     background: rgba(229, 84, 115, 0.05);
     width: 1922px;
     height: 620px;
-    flex-shrink: 0;
+
 }
 .hot-deal-info{
     padding-right: 200px;
 }
 .hot-deal-title{
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 .hot-deal-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-top: 24px
@@ -232,27 +244,21 @@ margin-top: 24px;
     background: url('./Flower Asset/Rectangle 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
     width: 1440px;
     height: 449px;
-    flex-shrink: 0;
     margin-left: 220px;
   
 }
 .latest-deals-title{
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     padding-top: 122px;
     
 }
 .latest-deals-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-top: 16px;
@@ -265,35 +271,27 @@ form{
 .email-section{
     width: 700px;
     height: 64px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
     border: 0;
 }
 .email-section::placeholder{
     color: rgba(39, 39, 39, 0.60);
-/* text-align: center; */
-padding-left: 20px;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
 }
 .btn{
     width: 150px;
-height: 60px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #E55473;
-border: 0;
-color: #FFF;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 20px;
+    height: 60px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    cursor: pointer;
 
 }
 
@@ -316,9 +314,7 @@ span{
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-top: 24px;
@@ -326,10 +322,7 @@ span{
 .copyright{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family: Lato;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     padding-top: 32px;
 }
