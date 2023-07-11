@@ -282,6 +282,7 @@ form{
     padding-left: 20px;
     font-size: 16px;
     font-weight: 400;
+    
 }
 .btn{
     width: 150px;
@@ -314,10 +315,10 @@ span{
     color: #E55473;
 }
 .footer-description{
-    color: rgba(255, 255, 255, 0.90);
+    color: #aaa2a2;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 30px;
     padding-top: 24px;
 }
@@ -325,6 +326,6 @@ span{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400px;
     padding-top: 32px;
 }
